@@ -1,0 +1,118 @@
+/* css for google */
+body{
+    padding:3px;
+}
+hgroup{
+    float:right;
+    margin-top:0.3cm; 
+}
+a.googleplus{
+  text-decoration: none;
+  color:#222;
+  font-weight: 100;
+  position:relative;
+  right:17%;
+ 
+  
+}
+
+a.googleplus:hover{
+    text-decoration: underline;
+    color: black;
+}
+
+a.gmail{
+    text-decoration: none;
+    color: #222;
+    position: relative;
+    right: 13%;
+    
+}
+
+a.gmail:hover{
+    text-decoration: underline;
+    color: black;
+}
+a.images{
+    text-decoration: none;
+    color: #222;
+    position: relative;
+    right:9.5%;
+    
+}
+a.images:hover{
+    text-decoration: underline;
+    color: black;
+}
+
+#button{
+    position:relative;
+    right:7%;
+    vertical-align:middle;
+    cursor: default;
+}
+button.signin{
+    position: relative;
+    right:2%;
+    height:30px;
+    background-color: #4683EA;
+    color: #fff;
+    font-weight: 700;
+    border-style:solid;
+    border-radius:2px;
+    padding: 0px 12px 0px 12px;
+    border-color: #4683EA #4683EA #4683EA #4683EA;
+}
+
+
+#google_logo{
+    height: 95px;
+    width:269px;
+    margin-top:32%;
+    position: relative;
+    left:100%;
+    
+}
+#search_box{
+    width: 550px;
+    position: relative;
+    left:72%;
+    padding:7px;
+    margin-top:9px;
+}
+
+#google_search{
+    position: relative;
+    left:100%;
+    margin-top: 1%;
+    background-color:transparent;
+    padding:3.5px 8px 3.5px 8px;
+    border:solid ;
+    border-width: 1px;
+    border-color:#b3b3b3;
+    border-radius: 2px;
+    
+}
+#google_search:hover{
+    border-color:#999999;
+}
+#google_active:active{
+    border-color: blue;
+}
+#lucky{
+    position: relative;
+    left:100%;
+    margin-top:5%;
+    padding:3.5px 8px 3.5px 8px;
+    background-color:transparent;
+    border:solid ;
+    border-width: 1px;
+    border-color:#b3b3b3;
+    border-radius: 2px;
+}
+#lucky:hover{
+    border-color:#999999;
+}
+#lucky:active{
+    border-color: blue;
+}
